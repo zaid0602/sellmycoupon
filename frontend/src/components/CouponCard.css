@@ -1,0 +1,134 @@
+.coupon-card {
+  background-color: #ffffff;
+  border: 1px solid #f3f4f6;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s;
+}
+
+.coupon-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.coupon-header {
+  background: linear-gradient(135deg, #f0f4ff 0%, #faf5ff 100%);
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.coupon-info {
+  flex: 1;
+}
+
+.coupon-brand {
+  font-size: 11px;
+  color: #9ca3af;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.coupon-description {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 4px;
+}
+
+.coupon-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.coupon-logo-gradient {
+  background: #f0f0f0;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.coupon-content {
+  padding: 16px;
+}
+
+.coupon-discount {
+  display: inline-block;
+  background: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.coupon-expiry {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 12px;
+}
+
+.coupon-expiry-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.coupon-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.coupon-price-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.coupon-price-label {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.coupon-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 0;
+}
+
+.coupon-buy-button {
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  font-size: 14px;
+}
+
+.coupon-buy-button:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.buy-icon {
+  width: 16px;
+  height: 16px;
+}

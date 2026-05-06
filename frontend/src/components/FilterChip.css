@@ -1,0 +1,33 @@
+.filter-chip {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-chip-active {
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.filter-chip-inactive {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.filter-chip-inactive:hover {
+  background-color: #e5e7eb;
+}
+
+.filter-close-icon {
+  width: 14px;
+  height: 14px;
+}
